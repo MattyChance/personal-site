@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matty - Full stack web dev profile</title>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<link rel="stylesheet" href="site-styles.css">
+
+</head>
+<body>
+	<header class="basic-info">
+		<div id="nav">
+			<p>Testing sticky nav</p>
+		</div>
+	</header>
+	<article>
+		<section class="summary">
+			<div class="big-text">
+				<p>Hey there, my name is Matty and I am a full stack web developer passionate for creativity and technologies.
+				</p>
+			</div>
+		</section>
+
+		<section class="skills">
+			<div class="big-text">
+				<p>
+				It took me a bit of life time to find what I love doing. And here is my skill set for now. And it increases every day.
+				</p>
+			</div>
+		</section>
+
+		<section class="experience">
+			<div class="big-text">
+				<p>
+				This is the most recent project I helped with.
+				</p>
+			</div>
+		</section>
+
+		<section class="community">
+			<div class="big-text">
+				<p>
+				I believe in the power of communities and stay active for the local ones.
+				</p>
+			</div>
+		</section>
+
+	</article>
+	<footer class="footer"></footer>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="script/jquery.sticky.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#nav").sticky({topSpacing:0});
+  });
+</script>
+</body>
+</html>

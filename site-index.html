@@ -7,9 +7,14 @@
 
 </head>
 <body>
-	<header class="basic-info">
-		<div id="nav">
-			<p>Testing sticky nav</p>
+	<header class="nav">
+		<div id="nav-container">
+			<ul>
+				<a href=""><li>Summary</li></a>
+				<a href=""><li>Skills</li></a>
+				<a href=""><li>Projects</li></a>
+				<a href=""><li>Community</li></a>
+			</ul>
 		</div>
 	</header>
 	<article>
@@ -23,7 +28,7 @@
 		<section class="skills">
 			<div class="big-text">
 				<p>
-				It took me a bit of life time to find what I love doing. And here is my skill set for now. And it increases every day.
+				It took me a bit of life time to find what I love doing. Here is my skill set for now. And it increases every day.
 				</p>
 			</div>
 		</section>
@@ -52,7 +57,7 @@
 <script src="script/jquery.sticky.js"></script>
 <script>
   $(document).ready(function(){
-    $("#nav").sticky({topSpacing:0});
+    $("#nav-container").sticky({topSpacing:0});
   });
 </script>
 </body>

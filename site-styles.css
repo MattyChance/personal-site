@@ -1,31 +1,31 @@
 body {
 	font-family: 'Gloria Hallelujah', cursive;
-	background-color: black;
+	margin: 0;
 }
 
-.nav {
-	background-color: black;
+.nav-container {
+	display: flex;
 	height: 15vh;
 	color: white;
 }
 
-.nav ul {
+ul {
+	position: absolute;
+	color: white;
 	list-style-type: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
     padding: 0;
 
 }
 
-.nav a{
-	color: white;
+a {
     padding: 0 2em;
     cursor: pointer;
+
 }
 
 .summary {
-	background-color: #90AEC6;
+	background-color: black;
+	color: white;
 	height: 100vh;
 	display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ body {
     align-items: center;
 }
 
-.experience {
+.projects {
 	background-color: #EC1559;
 	height: 100vh;
 	display: flex;
@@ -59,7 +59,26 @@ body {
 .big-text {
 	height: 200px;
 	width: 400px;
-	font-size: 20px;
+	font-size: 25px;
 	max-width: 450px;
 	margin: 0 auto;
+}
+
+.cn-button {
+    border: none;
+    background: none;
+    color: #f06060;
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    margin-left: -1.75em;
+    bottom: -1.75em;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 11;
 }

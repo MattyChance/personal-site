@@ -7,33 +7,25 @@
 
 </head>
 <body>
-	<header class="nav">
-		<div id="nav-container">
-			<ul>
-				<a href=""><li>Summary</li></a>
-				<a href=""><li>Skills</li></a>
-				<a href=""><li>Projects</li></a>
-				<a href=""><li>Community</li></a>
-			</ul>
-		</div>
-	</header>
+	
 	<article>
-		<section class="summary">
+		
+		<section id="summary" class="summary">
 			<div class="big-text">
 				<p>Hey there, my name is Matty and I am a full stack web developer passionate for creativity and technologies.
 				</p>
 			</div>
 		</section>
 
-		<section class="skills">
+		<section id="skills" class="skills">
 			<div class="big-text">
 				<p>
-				It took me a bit of life time to find what I love doing. Here is my skill set for now. And it increases every day.
+				It took me a bit of time to find what I love doing but I've had a wonderful journey of seeking. Here is my skill set for now. It increases every day.
 				</p>
 			</div>
 		</section>
 
-		<section class="experience">
+		<section id="projects" class="projects">
 			<div class="big-text">
 				<p>
 				This is the most recent project I helped with.
@@ -41,20 +33,36 @@
 			</div>
 		</section>
 
-		<section class="community">
+		<section id="community" class="community">
 			<div class="big-text">
 				<p>
-				I believe in the power of communities and stay active for the local ones.
+				I believe in the power of communities and I stay active for the local ones.
 				</p>
 			</div>
 		</section>
-
+		<div class="component">
+		<button class="cn-button" id="cn-button">+</button>
+		<div class="cn-wrapper" id="cn-wrapper">
+			<ul>
+				<li><a href="#summary"><span></span></s></a></li>
+				<li><a href="#skills"><span></span></s></a></li>
+				<li><a href="#projects"><span></span></s></a></li>
+				<li><a href="#community"><span></span></s></a></li>
+			</ul>
+		</div>
+		<div id="cn-overlay" class="cn-overlay"></div>
+	</div>
 	</article>
+
 	<footer class="footer"></footer>
 
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
 <script src="script/jquery.sticky.js"></script>
+<!-- <script src="js/scrolling-nav.js"></script>
+<script src="jquery.easing.min.js"></script>
+<script src="scrolling-nav.css"></script> -->
+
 <script>
   $(document).ready(function(){
     $("#nav-container").sticky({topSpacing:0});

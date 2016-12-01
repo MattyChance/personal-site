@@ -16,6 +16,7 @@ body {
 	background-color: #10C8CD;
 	min-height: 100vh;
 	display: flex;
+	flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -130,3 +131,10 @@ a {
   }
 }
 
+.skill-array {
+	width: 1000px;
+	background-color: black;
+	color: white;
+	padding: 0 2em
+
+}

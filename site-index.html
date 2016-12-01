@@ -4,6 +4,8 @@
 	<title>Matty - Full stack web dev profile</title>
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 	<link rel="stylesheet" href="site-styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -30,6 +32,9 @@
 				<p>
 				This is the most recent project I helped with.
 				</p>
+				<div class="dialogue-logo spin">
+				<a href="https://github.com/dialoguemd/dialogue-admin-app"><img src="./src/img/logoWhite.png"></a>
+				</div>
 			</div>
 		</section>
 
@@ -38,36 +43,27 @@
 				<p>
 				I believe in the power of communities and I stay active for the local ones.
 				</p>
+				<div class="freecodecamp-logo spin" >
+				<a href="https://www.facebook.com/groups/free.code.camp.montreal/?fref=nf">
+					<i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i>
+				</a>
+				</div>
 			</div>
 		</section>
-		<div class="component">
-		<button class="cn-button" id="cn-button">+</button>
-		<div class="cn-wrapper" id="cn-wrapper">
-			<ul>
-				<li><a href="#summary"><span></span></s></a></li>
-				<li><a href="#skills"><span></span></s></a></li>
-				<li><a href="#projects"><span></span></s></a></li>
-				<li><a href="#community"><span></span></s></a></li>
-			</ul>
-		</div>
-		<div id="cn-overlay" class="cn-overlay"></div>
-	</div>
+		
 	</article>
 
-	<footer class="footer"></footer>
-<script src="polyfills.js"></script>
-<script src="navbutton.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
-<script src="script/jquery.sticky.js"></script> -->
-<!-- <script src="js/scrolling-nav.js"></script>
-<script src="jquery.easing.min.js"></script>
-<script src="scrolling-nav.css"></script> -->
+	<button class="nav-button">+</button>
 
-<script>
-  $(document).ready(function(){
-    $("#nav-container").sticky({topSpacing:0});
-  });
-</script>
+	<div id='mySidenav' class="sidenav">
+		<a href="#summary">Summary</a>
+		<a href="#skills">Skills</a>
+		<a href="#projects">Projects</a>
+		<a href="#community">Community</a>
+	</div>
+
+	<footer class="footer"></footer>
+
+	<script src="script/app.js"></script>
 </body>
 </html>

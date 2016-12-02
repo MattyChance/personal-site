@@ -38,9 +38,8 @@ body {
 }
 
 .big-text {
-	width: 80%;
+	width: 600px;
 	font-size: 25px;
-	max-width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }

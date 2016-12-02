@@ -1,0 +1,165 @@
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+	margin: 0;
+}
+
+.summary {
+	background-color: black;
+	color: white;
+	min-height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+	background-color: #10C8CD;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+	background-color: #EC1559;
+	min-height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.community {
+	background-color: #FAF93C;
+	min-height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.big-text {
+	width: 400px;
+	font-size: 25px;
+	max-width: 450px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.freecodecamp-logo {
+	text-align: center;
+}
+
+button {
+	border: none;
+    background: none;
+    color: #f06060;
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+    height: 2.5em;
+    width: 2.5em;
+    background-color: white;
+    position: fixed;
+    left: 8%;
+    margin-left: -1.25em;
+    bottom: -1.25em;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 11;
+}
+
+
+a {
+    cursor: pointer;
+    color: white;
+}
+
+.sidenav {
+	font-size: 12px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+	color:#f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+.pushContent {
+	margin-left: 16%;
+}
+
+/*.overlay {
+	height: 100%;
+    width: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+ 	background: rgba(0, 0, 0, 0.50);
+}
+*/
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.openSidenav {
+	width: 16%;
+}
+
+.spin {
+	animation: spin 7s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.skill-array {
+	max-width: 80%;
+	background-color: black;
+	color: white;
+	padding: 0 2em
+
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}

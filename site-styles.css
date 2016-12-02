@@ -38,7 +38,7 @@ body {
 }
 
 .big-text {
-	width: 600px;
+	max-width: 600px;
 	font-size: 1.5em;
 	margin: 0 auto;
 	text-align: center;

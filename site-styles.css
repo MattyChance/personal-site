@@ -135,18 +135,6 @@ a {
 	width: 16%;
 }
 
-.spin {
-	animation: spin 7s linear infinite;
-}
-@keyframes spin {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
-
 .skill-array {
 	max-width: 80%;
 	background-color: black;
@@ -161,4 +149,8 @@ pre {
  white-space: -pre-wrap;      /* Opera 4-6 */
  white-space: -o-pre-wrap;    /* Opera 7 */
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+@media screen and (max-width: 600px) {
+	visibility: hidden;
 }

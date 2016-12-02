@@ -38,9 +38,9 @@ body {
 }
 
 .big-text {
-	width: 400px;
+	width: 80%;
 	font-size: 25px;
-	max-width: 450px;
+	max-width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }

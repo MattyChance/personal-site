@@ -109,6 +109,23 @@ a {
 	margin-left: 50px;
 }
 
+#main {
+    transition: margin-left .5s;
+}
+
+.pushContent {
+	margin-left: 16%;
+}
+
+.overlay {
+	height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+ 	background: rgba(0, 0, 0, 0.50);
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

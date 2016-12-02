@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="site-styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
 	
@@ -70,10 +69,10 @@
 	<button class="nav-button">+</button>
 
 	<div id='mySidenav' class="sidenav">
-		<a href="#summary">Summary</a>
-		<a href="#skills">Skills</a>
-		<a href="#projects">Projects</a>
-		<a href="#community">Community</a>
+		<a onclick="$('#summary').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">Summary</a>
+		<a onclick="$('#skills').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">Skills</a>
+		<a onclick="$('#projects').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">Projects</a>
+		<a onclick="$('#community').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">Community</a>
 		<a href="https://github.com/MattyChance"><i class="fa fa-github" aria-hidden="true"></i></a>
 		<a href="https://ca.linkedin.com/in/mattychenwang"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 	</div>
@@ -81,5 +80,6 @@
 	<footer class="footer"></footer>
 
 	<script src="script/app.js"></script>
+	<script src="script/animatescroll.js"></script>
 </body>
 </html>

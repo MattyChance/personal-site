@@ -152,5 +152,10 @@ pre {
 }
 
 @media screen and (max-width: 600px) {
-	visibility: hidden;
+	.sidenav {
+		visibility: hidden;
+	}
+	button {
+		visibility: hidden;
+	}
 }

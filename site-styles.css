@@ -1,3 +1,5 @@
+
+
 body {
 	font-family: 'Gloria Hallelujah', cursive;
 	margin: 0;
@@ -116,15 +118,16 @@ a {
 	margin-left: 16%;
 }
 
-/*.overlay {
-	height: 100%;
-    width: 0;
+body.overlay::after {
+	content: "";
+	height: 100vh;
+    width: 100vw;
     position: fixed;
     left: 0;
     top: 0;
- 	background: rgba(0, 0, 0, 0.50);
+ 	background: rgba(0, 0, 0, 0.70);
 }
-*/
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

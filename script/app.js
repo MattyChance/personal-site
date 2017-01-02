@@ -25,7 +25,13 @@ $(document).ready(function(){
 
 		});
 
-	});
+		if ($('.nav-button').text() === '+') {
+			$('.nav-button').text('-');
 
+		}
+		else {
+			$('.nav-button').text('+');
+		}
+	});
 
 })

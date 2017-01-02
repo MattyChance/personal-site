@@ -18,19 +18,13 @@ $(document).ready(function(){
 		$('body').toggleClass('overlay');
 
 		$('body, html').click(function(e) {
+
 			$('#mySidenav').removeClass('openSidenav');
 			$('#main').removeClass('pushContent');
 			$('body').removeClass('overlay');
 
 		});
 
-		if ($('.nav-button').text() === '+') {
-			$('.nav-button').text('-');
-
-		}
-		else {
-			$('.nav-button').text('+');
-		}
 	});
 
 

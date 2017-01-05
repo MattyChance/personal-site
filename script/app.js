@@ -18,6 +18,7 @@ $(document).ready(function(){
 		$('body').toggleClass('overlay');
 
 		$('body, html').click(function(e) {
+
 			$('#mySidenav').removeClass('openSidenav');
 			$('#main').removeClass('pushContent');
 			$('body').removeClass('overlay');
@@ -32,6 +33,5 @@ $(document).ready(function(){
 			$('.nav-button').text('+');
 		}
 	});
-
 
 })
